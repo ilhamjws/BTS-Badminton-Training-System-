@@ -44,9 +44,7 @@ Example:
 python3 poseLandmark_csv.py -i data/ -o data.csv
 ```
 CSV file will be saved in **<path_to_save_csv>**
-### 3.Create DeepLearinng Model to predict Badminton Pose 
 ```
-
 **To Exit Window - Press Q-key**
 
 ### link convert TFLITE 
