@@ -1,16 +1,16 @@
 # CustomPose-Classification-Mediapipe: Badminton Pose Classification
 
-Proyek ini bertujuan untuk membuat model klasifikasi pose khusus untuk bulutangkis menggunakan MediaPipe dan OpenCV.
+This project aims to create a custom pose classification model for badminton using MediaPipe and OpenCV.
 
 <p align="center">
   <img src='Screenshot 2024-08-30 103424.png'/>
 </p>
 
-## Persiapan
+## Getting Started
 
-### 1. Clone Repository dan Instal Dependensi
+### 1. Clone the Repository and Install Dependencies
 
-Clone repository dan instal dependensi yang diperlukan:
+Clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/naseemap47/CustomPose-Classification-Mediapipe.git
@@ -18,9 +18,9 @@ cd CustomPose-Classification-Mediapipe
 pip3 install -r requirements.txt
 ```
 
-### 2. Download Dataset
+### 2. Download the Dataset
 
-Unduh dataset pose bulutangkis dan susun dataset dalam struktur berikut:
+Download the badminton pose dataset and organize it in the following structure:
 
 ```
 ├── Dataset
@@ -36,29 +36,28 @@ Unduh dataset pose bulutangkis dan susun dataset dalam struktur berikut:
 .   .
 ```
 
-### 3. Buat Dataset Landmark untuk Setiap Kelas
+### 3. Create a Landmark Dataset for Each Class
 
-Jalankan skrip berikut untuk membuat dataset landmark dari gambar pose:
+Run the following script to create a landmark dataset from the pose images:
 
 ```bash
 python3 poseLandmark_csv.py -i <path_to_data_dir> -o <path_to_save_csv>
 ```
 
-**Contoh:**
+**Example:**
 
 ```bash
 python3 poseLandmark_csv.py -i data/ -o data.csv
 ```
 
-File CSV akan disimpan di lokasi yang ditentukan.
+The CSV file will be saved at the specified location.
 
-### 4. Konversi CSV ke Model TFLite
+### 4. Convert CSV to TFLite Model
 
-Setelah mendapatkan file CSV, konversi ke model TFLite menggunakan [Google Colab ini](https://colab.research.google.com/drive/1gelTfXdKFB4d73wUV6HhskgvtluV9xDD?usp=sharing).
+After obtaining the CSV file, convert it to a TFLite model using [this Google Colab link](https://colab.research.google.com/drive/1gelTfXdKFB4d73wUV6HhskgvtluV9xDD?usp=sharing).
 
-### 5. Jalankan Program Interface
+### 5. Run the Interface Program
 
-Setelah memiliki model TFLite, jalankan program interface.
+Once you have the TFLite model, run the interface program.
 
-**Untuk Keluar dari Window - Tekan Q-key**
-
+**To Exit Window - Press Q-key**
