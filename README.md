@@ -15,13 +15,13 @@ cd CustomPose-Classification-Mediapipe
 pip3 install -r requirements.txt
 ```
 
-### 1.Download Dataset:
+###1.Download Dataset:
 **Badminton Poses Dataset:**
 ```
 
 **Dataset Structure:**
 ```
-**Dataset Structure:**
+Dataset Structure:
 ```
 ├── Dataset
 │   ├── Footwork
