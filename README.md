@@ -21,6 +21,8 @@ pip3 install -r requirements.txt
 
 **Dataset Structure:**
 ```
+**Dataset Structure:**
+```
 ├── Dataset
 │   ├── Footwork
 │   │   ├── 1.jpg
@@ -30,11 +32,6 @@ pip3 install -r requirements.txt
 │   │   ├── 1.jpg
 │   │   ├── 2.jpg
 │   │   ├── ...
-    ├── Forehand
-        ├── 1.jpg
-│   │   ├── 2.jpg
-│   │   ├── ...       
-
 .   .
 .   .
 ```
