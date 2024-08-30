@@ -1,4 +1,4 @@
-# BTS-Badminton-Training-System-
+# CustomPose-Classification-Mediapipe-Badminton Pose
 Creating a Custom pose classification using Mediapipe with help of OpenCV
 
 <p align="center">
